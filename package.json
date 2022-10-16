@@ -55,6 +55,20 @@
             "Use indexes (Python friendly) for keys separators"
           ],
           "scope": "resource"
+        },
+        "statusBarJSONPath.arrayDotNotation": {
+          "type": "string",
+          "default": "dots",
+          "description": "Choose between `dots` or `indexes` for JSON arrays.",
+          "enum": [
+            "dots",
+            "indexes"
+          ],
+          "enumDescriptions": [
+            "Use dots (JS friendly) for array indexes",
+            "Use indexes (Python friendly) for array indexes"
+          ],
+          "scope": "resource"
         }
       }
     }
